@@ -1,0 +1,33 @@
+{
+  "name": "gyro-view",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.mjs",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "send:sample": "node scripts/send-sample.mjs"
+  },
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "lucide-react": "^1.11.0",
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.4",
+    "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  }
+}

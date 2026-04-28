@@ -1,0 +1,52 @@
+# node modules
+/gyro-test/node_modules/
+/gyro-test-server/node_modules/
+/gyro-view/node_modules/
+
+# Expo
+/gyro-test/.expo/
+/gyro-test/dist/
+/gyro-test/web-build/
+/gyro-test/expo-env.d.ts
+
+# Native
+/gyro-test/.kotlin/
+/gyro-test/*.orig.*
+/gyro-test/*.jks
+/gyro-test/*.p8
+/gyro-test/*.p12
+/gyro-test/*.key
+/gyro-test/*.mobileprovision
+
+# Metro
+/gyro-test/.metro-health-check*
+
+# debug
+/gyro-test/npm-debug.*
+/gyro-test/yarn-debug.*
+/gyro-test/yarn-error.*
+
+# macOS
+/gyro-test/.DS_Store
+/gyro-test/*.pem
+
+# local env files
+/gyro-test/.env*.local
+
+# typescript
+/gyro-test/*.tsbuildinfo
+
+# generated native folders
+/gyro-test/ios
+/gyro-test/android
+
+## Gyro View
+/gyro-view/.next/
+/gyro-view/out/
+/gyro-view/dist/
+/gyro-view/.env*.local
+/gyro-view/npm-debug.log*
+/gyro-view/yarn-debug.log*
+/gyro-view/yarn-error.log*
+/gyro-view/.DS_Store
+/gyro-view/*.tsbuildinfo
